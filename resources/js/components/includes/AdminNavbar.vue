@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg sticky-top flex-md-nowrap shadow-sm" style="background-color: #e3f2fd;">
         <div class="container-fluid">
             <router-link to="/" class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 nuxt-link-active mini">
-                <span>Laravel Vue Stater</span>
+                <span>Sfax News</span>
             </router-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -11,12 +11,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <!-- <li class="nav-item">
+                     <li class="nav-item">
                         <router-link :to="{ name: 'posts.index' }" class="nav-link active" aria-current="page">
                             Posts
                         </router-link>
-                    </li> -->
-                    <LocaleSwitcher />
+                    </li>
+                  <!--  <LocaleSwitcher />-->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                            aria-expanded="false">

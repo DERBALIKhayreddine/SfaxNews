@@ -4,7 +4,7 @@
             <div class="card border-0 shadow-sm">
                 <div class="card-body">
                     <div class="mb-4">
-                        <h1>Admin</h1>
+                        <h1>Welcome back Admin</h1>
                     </div>
                 </div>
             </div>

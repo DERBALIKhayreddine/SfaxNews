@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h2 class="text-center my-4">Category Posts</h2>
+        <h2 class="text-center my-4">nouveau annoces</h2>
         <div class="row mb-2">
             <div v-for="post in posts?.data" :key="post.id" class="col-md-6">
                 <div
@@ -13,7 +13,7 @@
                             {{ category.name }}
                         </strong>
                         <h3 class="mb-0">{{ post.title }}</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
+                        <div class="mb-1 text-muted"></div>
                         <p class="card-text mb-auto">{{ post.content.substring(0, 90) + "..." }}</p>
                         <router-link :to="{ name: 'public-posts.details', params: { id: post.id } }"
                                      class="stretched-link">Continue reading
